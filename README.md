@@ -51,7 +51,7 @@ docker run -p 8501:8501 -p 8500:8500 --mount type=bind,source=根目录/pb_model
 10. 本项目提供的pb模型较弱，训练次数较少，仅供参考
 
 ## 模型结构  
-![image](https://github.com/JJASMINE22/HybridNets/tree/main/structure/hybridnets.jpg)  
+![image](https://github.com/JJASMINE22/HybridNets/blob/main/structure/hybridnets.jpg)  
 
 ## 效果展示
 ![image](https://github.com/JJASMINE22/HybridNets/blob/main/results/sample1.jpg)  
