@@ -9,6 +9,7 @@
 5. [数据下载 Download](#数据下载) 
 6. [训练步骤 Train](#训练步骤) 
 7. [预测步骤 Predict](#预测步骤)
+8．[参考文献 Reference](#参考文献)
 
 ## 所需环境  
 1. Python3.7
@@ -45,7 +46,8 @@ onnx2pb.py
 ```
 9. 产出pb模型，tensorflow serving部署指令：
 ```python
-docker run -p 8501:8501 -p 8500:8500 --mount type=bind,source=根目录/pb_model/hybridnet,target=/models/hybridnet -e MODEL_NAME= hybridnet -t tensorflow/serving:版本```
+docker run -p 8501:8501 -p 8500:8500 --mount type=bind,source=根目录/pb_model/hybridnet,target=/models/hybridnet -e MODEL_NAME= hybridnet -t tensorflow/serving:版本
+```
 10. 本项目提供的pb模型较弱，训练次数较少，仅供参考
 
 ## 模型结构  
@@ -66,3 +68,5 @@ BDD100K
 ## 预测步骤  
 运行predict.py  
 
+## 参考文献  
+https://arxiv.org/abs/2203.09035  
