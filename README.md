@@ -9,7 +9,7 @@
 5. [数据下载 Download](#数据下载) 
 6. [训练步骤 Train](#训练步骤) 
 7. [预测步骤 Predict](#预测步骤) 
-8．[参考文献 Reference](#参考文献) 
+8. [参考文献 Reference](#参考文献) 
 
 ## 所需环境  
 1. Python3.7
